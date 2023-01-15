@@ -5,3 +5,15 @@
 .nav-link:hover {
     color:aqua;
 }
+
+.logo {
+    height: 30%;
+    width: 30%
+}
+
+.board {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
