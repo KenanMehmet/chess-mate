@@ -1,0 +1,58 @@
+.site-background {
+    background-color: rgb(230, 228, 226);
+    font-family: "Helvetica";
+}
+
+.nav-link {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    padding-top: 5px;
+    display: inline;
+    font-size: 45px;
+}
+
+.signup-button {
+    margin-left: auto;
+    background-color: #42E8FF;
+    padding: 10px;
+    border-radius: 8%;
+}
+
+.navbar-container {
+    display: flex; 
+    border-color: #000;
+    border-bottom:  3px solid #000 !important;
+    width: 100%; 
+    margin: 0;
+    justify-content: space-between;
+}
+
+.nav-link:hover {
+    color:aqua;
+}
+
+.logo {
+    height: 70px;
+    width: 305px;
+}
+
+.board {
+    grid-row: 2;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.board-container {
+    display: grid;
+    align-items: center;
+}
+
+.board-header {
+    grid-row: 1;
+    padding: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
