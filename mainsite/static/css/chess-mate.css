@@ -7,8 +7,25 @@
     list-style-type: none;
     margin: 20px;
     padding: 0;
+    padding-top: 5px;
     display: inline;
     font-size: 45px;
+}
+
+.signup-button {
+    margin-left: auto;
+    background-color: #42E8FF;
+    padding: 10px;
+    border-radius: 8%;
+}
+
+.navbar-container {
+    display: flex; 
+    border-color: #000;
+    border-bottom:  3px solid #000 !important;
+    width: 100%; 
+    margin: 0;
+    justify-content: space-between;
 }
 
 .nav-link:hover {
@@ -21,6 +38,7 @@
 }
 
 .board {
+    grid-row: 2;
     display: block;
     align-items: center;
     margin-left: auto;
@@ -28,10 +46,13 @@
 }
 
 .board-container {
-    display: flex;
+    display: grid;
+    align-items: center;
 }
 
 .board-header {
+    grid-row: 1;
     padding: 0%;
-    margin: 0%;
+    margin-left: auto;
+    margin-right: auto;
 }

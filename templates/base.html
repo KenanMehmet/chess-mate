@@ -15,29 +15,19 @@
 
 <body class="site-background">
     <div>
-        <nav class="">
-          <div class="" style="padding-top: 0">
-            <div class="" id="navbarSupportedContent">
-              <ul class="">
-                  <a class="" href="{% url 'index' %}">
-                    <img class="logo" src="{% static 'images/logo.png' %}" alt="logo color">
-                  </a>
-                  <li class="nav-link ">
-                    <a class="nav-link">Play</a>
-                  </li>
-                  <li class="nav-link ">
-                    <a class="nav-link">Blog</a>
-                  </li>
-                  <li class="nav-link ">
-                    <a class="nav-link">Live</a>
-                  </li>
-                </ul>
-                <ul class="navbar-nav right">
-                  <li class="nav-link ">
-                    <a href="">Sign Up</a>
-                  </li>
-                </ul>
-              </div>
+        <nav>
+          <div class="navbar-container" style="padding-top: 0">
+            <div>
+              <a href="{% url 'index' %}">
+                <img class="logo" src="{% static 'images/logo.png' %}" alt="logo color">
+              </a>
+              <a class="nav-link">Play</a>
+              <a class="nav-link">Blog</a>
+              <a class="nav-link">Live</a>
+            </div>
+            <div class="nav-link signup-button">
+              <a class="">Sign Up</a>
+            </div>
           </div>
         </nav>
     </div>
