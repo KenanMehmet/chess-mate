@@ -25,13 +25,15 @@
               <a class="nav-link">Blog</a>
               <a class="nav-link">Live</a>
             </div>
-            <div class="nav-link signup-button">
-              <a class="">Sign Up</a>
+            <div class="">
+              <a class="nav-link signup-button" href="{% url 'signup' %}">Sign Up</a>
             </div>
           </div>
         </nav>
     </div>
-    {% block content %}{% endblock %}
+    <div class="index-container">
+      {% block content %}{% endblock %}
+    </div>
 </body>
 
 </html>

@@ -17,6 +17,16 @@
     background-color: #42E8FF;
     padding: 10px;
     border-radius: 8%;
+    text-decoration: none;
+    color:#000;
+}
+
+.signup-button:visited {
+    color:#000;
+}
+
+.signup-button:hover {
+    background-color: #4297ff;
 }
 
 .navbar-container {
@@ -55,4 +65,15 @@
     padding: 0%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.index-container {
+    margin-top:50px;
+}
+
+.center-container {
+    margin-left: 10px;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
 }
